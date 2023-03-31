@@ -59,15 +59,15 @@ header {
   padding: 0 15px;
 }
 
-.message-box-luke {
+.message-box-perso1 {
   align-self: flex-end;
 }
 
-.message-box-luke .message-author {
+.message-box-perso1 .message-author {
   text-align: right;
 }
 
-.message-box-luke .message-content {
+.message-box-perso1 .message-content {
   background: #f33;
   border-radius: 15px 15px 0 15px;
 }
