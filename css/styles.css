@@ -8,9 +8,6 @@ img {
   display: block;
   max-width: 100%;
 }
-html, body {
-  margin: 0;
-}
 
 header {
   display: flex;  
@@ -69,11 +66,12 @@ header {
 
 .message-box-perso1 .message-content {
   background: #f33;
-  border-radius: 15px 15px 0 15px;
+  border-radius: 15px 15px 15px 15px;
 }
 
-.message-box-yoda .message-content {
+.message-box-farid .message-content {
   background: #3f3;
+  border-radius: 15px 15px 15px 15px;
 }
 
 footer {
