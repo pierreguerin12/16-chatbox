@@ -51,13 +51,6 @@ header {
   padding: 10px 15px;
 }
 
-.message-author {
-  font-family: 'Roboto', sans-serif;
-  font-size: 10px;
-  margin: 0;
-  padding: 0 15px;
-}
-
 .message-box-perso1 {
   align-self: flex-end;
 }
@@ -83,4 +76,10 @@ footer {
   padding: 20px;
   position: sticky;
   bottom: 0;
+}
+
+.date{
+  color:white;
+  text-align: center;
+  font-size: small;
 }
