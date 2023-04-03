@@ -15,10 +15,11 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
-  background: #ddd;
+  background: black;
   padding: 0 20px;
   position: sticky;
   top: 0;
+  color: white;
 }
 
 .profile-picture {
