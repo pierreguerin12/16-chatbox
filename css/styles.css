@@ -24,9 +24,7 @@ header {
 .chatbox-container {
   border-left: 1px solid black;
   border-right: 1px solid black;
-  display: flex;
   margin: auto;
-  flex-direction: column;
 }
 
 .message-box {
@@ -36,17 +34,16 @@ header {
 
 .message-content {
   border-radius: 15px 15px 15px 0;
-  background: #55f;
   margin: 0 0 5px 0;
   padding: 10px 15px;
   max-width: fit-content;
 }
 
-.message-box-perso1 {
-  align-items: right;
+.message-box-perso-un {
+  align-self: flex-end;
 }
 
-.message-box-perso1 .message-content {
+.message-box-perso-un .message-content {
   background: #5fb9d0;
   border-radius: 15px 15px 15px 15px;
 }
