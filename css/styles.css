@@ -1,7 +1,8 @@
 body {
   max-width: 320px;
   margin: auto;
-  background: #ddd;
+  background: #222b2f;
+  font-family: 'Roboto', sans-serif;
 }
 
 img {
@@ -43,14 +44,14 @@ header {
 
 .message-content {
   border-radius: 15px 15px 15px 0;
-  font-family: monospace;
+  font-family: 'Roboto', sans-serif;
   background: #55f;
   margin: 0 0 5px 0;
   padding: 10px 15px;
 }
 
 .message-author {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 10px;
   margin: 0;
   padding: 0 15px;
