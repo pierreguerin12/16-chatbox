@@ -1,8 +1,10 @@
+html{
+  font-family: 'Roboto', sans-serif;
+}
 body {
-  max-width: 320px;
+  max-width: 365px;
   margin: auto;
   background: #222b2f;
-  font-family: 'Roboto', sans-serif;
 }
 
 img {
@@ -14,7 +16,6 @@ header {
   display: flex;  
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 30px;
   background: black;
   padding: 0 20px;
   position: sticky;
@@ -45,7 +46,6 @@ header {
 
 .message-content {
   border-radius: 15px 15px 15px 0;
-  font-family: 'Roboto', sans-serif;
   background: #55f;
   margin: 0 0 5px 0;
   padding: 10px 15px;
@@ -53,10 +53,6 @@ header {
 
 .message-box-perso1 {
   align-self: flex-end;
-}
-
-.message-box-perso1 .message-author {
-  text-align: right;
 }
 
 .message-box-perso1 .message-content {
@@ -70,7 +66,7 @@ header {
 }
 
 footer {
-  background: pink;
+  background: black;
   display: flex;
   justify-content: space-between;
   padding: 20px;
