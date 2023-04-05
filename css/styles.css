@@ -46,6 +46,9 @@ main{
 
 .message-box-perso-un {
   align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .message-box-perso-un .message-content {
